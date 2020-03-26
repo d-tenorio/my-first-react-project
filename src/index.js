@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './App'; // import the App component FROM the file called App(.js)
+
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App /> {/* Take the App component and render it inside strict mode */}
   </React.StrictMode>,
   document.getElementById('root')
 );
